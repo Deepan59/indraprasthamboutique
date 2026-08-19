@@ -4,7 +4,6 @@ import { ArrowRight, ShoppingBag, Truck, Heart, MessageSquare, MapPin, Clock, Ph
 import { productService } from '../data/productService';
 import { shopConfig } from '../data/config';
 import ProductCard from '../components/ProductCard';
-import InstagramGallery from '../components/InstagramGallery';
 
 export default function Home() {
   const [featuredProducts, setFeaturedProducts] = useState([]);
@@ -40,7 +39,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1920&q=80"
-            alt="Saravana Boutique Hero Background"
+            alt="Indraprastham Boutique Hero Background"
             className="w-full h-full object-cover object-center scale-105 animate-pulse-slow"
           />
           {/* Dark Overlay Gradient for maximum text readability & contrast */}
@@ -56,7 +55,7 @@ export default function Home() {
                 <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-500/20 border border-brand-300/30 backdrop-blur-md">
                   <Sparkles className="w-3.5 h-3.5 text-brand-300 animate-spin" style={{ animationDuration: '6s' }} />
                   <span className="text-xs uppercase tracking-[0.2em] font-semibold text-brand-200">
-                    Devakottai's Premier Boutique
+                    Madurai's Premier Boutique
                   </span>
                 </div>
 
@@ -383,9 +382,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 7. INSTAGRAM GALLERY FEED */}
-      <InstagramGallery />
-
       {/* 8. VISIT OUR STORE SECTION */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -399,7 +395,7 @@ export default function Home() {
                 </span>
                 <h2 className="font-serif text-4xl text-stone-900 font-medium leading-[1.15]">
                   Visit Our Store <br />
-                  in Devakottai
+                  in Madurai
                 </h2>
                 <p className="text-stone-500 font-light text-sm leading-relaxed mt-3 max-w-md">
                   Drop by our boutique to see our full range, touch the fabric quality, and try on your favorite outfits.
@@ -442,7 +438,7 @@ export default function Home() {
             <div className="h-[380px] w-full overflow-hidden rounded-sm shadow-xl relative border border-brand-200">
               <img
                 src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80"
-                alt="Saravana Boutique Storefront and Interior"
+                alt="Indraprastham Boutique Storefront and Interior"
                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-[1500ms]"
               />
               <div className="absolute inset-0 bg-stone-950/10"></div>
@@ -464,7 +460,7 @@ export default function Home() {
           </p>
           <div className="pt-3">
             <a
-              href={`https://wa.me/${shopConfig.contact.whatsappNumber}?text=Hi%20Saravana%20Boutique,%20I'm%20interested%20in%20browsing%20your%20latest%20collections!`}
+              href={`https://wa.me/${shopConfig.contact.whatsappNumber}?text=Hi%20Indraprastham%20Boutique,%20I'm%20interested%20in%20browsing%20your%20latest%20collections!`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 px-8 py-4 bg-brand-500 hover:bg-brand-600 text-stone-950 font-bold tracking-widest uppercase transition-luxury shadow-xl rounded-sm text-xs"

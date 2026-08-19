@@ -1,13 +1,11 @@
 export const shopConfig = {
-  name: "Saravana Boutique",
+  name: "Indraprastham Boutique",
   tagline: "Exquisite Women's Fashion & Traditional Weaves",
   contact: {
-    phone: "+91 90251 97268", // Updated phone display
-    whatsappNumber: "919025197268", // Updated WhatsApp link format
+    phone: "+91 90251 98707", // Updated phone display
+    whatsappNumber: "919025198707", // Updated WhatsApp link format
     email: "saravanaboutiqueofficials@gmail.com",
-    address: "No. 12, Nethaji Road, near Town Hall, Devakottai, Tamil Nadu 630302",
-    instagramHandle: "@saravana.boutique_official",
-    instagramUrl: "https://www.instagram.com/saravana.boutique_official?igsh=MnNpemlkcTAxZ3Zn&igsi=MnNpemlkcTAxZ3Zn", // Updated Instagram link
+    address: "23/71 Ramnagar 3rd Cross, Bypass Rd, near Vasanth & Co, Madurai, Tamil Nadu 625016",
     openingHours: "Monday - Saturday: 10:00 AM - 9:00 PM | Sunday: Closed",
   },
   categories: [
@@ -19,7 +17,7 @@ export const shopConfig = {
     { name: "Lounge Wear", image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80", tag: "lounge-wear", desc: "Cozy & stylish relaxation wear" }
   ],
   aboutText: {
-    history: "Founded with a passion for traditional fabrics and contemporary styles, Saravana Boutique has been serving fashion-forward women in the local community for over a decade. We curate a selection of elegant sarees, comfortable kurti sets, and high-quality loungewear.",
+    history: "Founded with a passion for traditional fabrics and contemporary styles, Indraprastham Boutique has been serving fashion-forward women in the local community for over a decade. We curate a selection of elegant sarees, comfortable kurti sets, and high-quality loungewear.",
     mission: "Our mission is to celebrate individuality by providing premium quality, beautiful fabrics, and custom-feel fits that bring comfort and confidence to every woman.",
   }
 };
