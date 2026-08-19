@@ -352,5 +352,22 @@ export const sampleProducts = [
     featured: false,
     newArrival: false,
     createdAt: "2026-07-10T11:00:00Z"
+  },
+  {
+    id: "sb-fab-001",
+    productCode: "SB-FAB-001",
+    name: "Maroon Ajrakh Block Print Cotton Fabric",
+    category: "Fabric Section",
+    price: 150,
+    description: "Premium quality maroon block print cotton fabric featuring fine pin-tuck pleats and traditional ethnic arch motifs. Soft, breathable, and durable fabric perfect for custom blouses, kurtis, dresses, and ethnic wear.\n\n• Price: ₹150 per meter\n• Total Available Stock: 20 meters",
+    images: [
+      "/maroon-printed-fabric.jpg"
+    ],
+    colors: ["#800000", "#d97706", "#000000"],
+    sizes: ["Per Meter"],
+    available: true,
+    featured: true,
+    newArrival: true,
+    createdAt: "2026-08-19T21:50:00Z"
   }
 ];

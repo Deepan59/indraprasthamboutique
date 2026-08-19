@@ -77,6 +77,9 @@ export default function ProductCard({ product }) {
         <div className="flex items-center justify-between mt-auto">
           <p className="text-sm sm:text-base font-semibold text-stone-950 font-sans tracking-wide">
             {formattedPrice}
+            {category === 'Fabric Section' && (
+              <span className="text-[10px] font-normal text-stone-500 ml-1">/ meter</span>
+            )}
           </p>
           <Link 
             to={`/product/${id}`} 

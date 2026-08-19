@@ -112,6 +112,20 @@ VALUES
 
 ('sb-top-005', 'SB-TOP-005', 'Crepe High-Neck Top', 'Tops', 899, 'An elegant high-neck top in moss crepe fabric with button cuffs and keyhole back closure. Perfect office-wear staple.', 
     ARRAY['https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=600&q=80'], 
-    ARRAY['#4a044e', '#1c1917'], ARRAY['S', 'M', 'L', 'XL'], FALSE, FALSE, FALSE, '2026-07-10T11:00:00Z')
+    ARRAY['#4a044e', '#1c1917'], ARRAY['S', 'M', 'L', 'XL'], FALSE, FALSE, FALSE, '2026-07-10T11:00:00Z'),
 
-ON CONFLICT (product_code) DO NOTHING;
+('sb-fab-001', 'SB-FAB-001', 'Maroon Ajrakh Block Print Cotton Fabric', 'Fabric Section', 150, 'Premium quality maroon block print cotton fabric featuring fine pin-tuck pleats and traditional ethnic arch motifs. Soft, breathable, and durable fabric perfect for custom blouses, kurtis, dresses, and ethnic wear. Price is per meter. Total available stock: 20 meters.',
+    ARRAY['/maroon-printed-fabric.jpg'],
+    ARRAY['#800000', '#d97706', '#000000'], ARRAY['Per Meter'], TRUE, TRUE, TRUE, '2026-08-19T21:50:00Z')
+
+ON CONFLICT (product_code) DO UPDATE SET 
+    name = EXCLUDED.name,
+    category = EXCLUDED.category,
+    price = EXCLUDED.price,
+    description = EXCLUDED.description,
+    images = EXCLUDED.images,
+    colors = EXCLUDED.colors,
+    sizes = EXCLUDED.sizes,
+    available = EXCLUDED.available,
+    featured = EXCLUDED.featured,
+    new_arrival = EXCLUDED.new_arrival;

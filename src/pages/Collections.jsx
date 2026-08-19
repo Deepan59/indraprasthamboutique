@@ -15,7 +15,7 @@ export default function Collections() {
   const [sortBy, setSortBy] = useState('newest'); // newest, price-asc, price-desc, name-asc
 
   // Categories list based on specification
-  const categories = ['All', 'Sarees', 'Kurti Sets', 'Nighties', 'Night Dresses', 'Tops', 'Lounge Wear'];
+  const categories = ['All', 'Sarees', 'Kurti Sets', 'Nighties', 'Night Dresses', 'Tops', 'Lounge Wear', 'Fabric Section'];
 
   // Get active category from URL path or query parameters (default to 'All')
   const activeCategory = useMemo(() => {
@@ -25,6 +25,7 @@ export default function Collections() {
     if (pathname.includes('/collections/night-dresses')) return 'Night Dresses';
     if (pathname.includes('/collections/tops')) return 'Tops';
     if (pathname.includes('/collections/lounge-wear')) return 'Lounge Wear';
+    if (pathname.includes('/collections/fabric-section')) return 'Fabric Section';
     return searchParams.get('category') || 'All';
   }, [pathname, searchParams]);
 

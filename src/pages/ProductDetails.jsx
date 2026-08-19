@@ -187,9 +187,29 @@ Please confirm availability.`;
             </div>
 
             {/* Price */}
-            <div className="text-3xl font-bold text-stone-900 mb-6 font-sans">
-              {formattedPrice}
+            <div className="text-3xl font-bold text-stone-900 mb-6 font-sans flex items-baseline">
+              <span>{formattedPrice}</span>
+              {product.category === 'Fabric Section' && (
+                <span className="text-sm font-normal text-stone-500 ml-1.5">/ meter</span>
+              )}
             </div>
+
+            {/* Fabric Specifications */}
+            {product.category === 'Fabric Section' && (
+              <div className="mb-6 p-4 bg-stone-50 border border-stone-200/80 rounded-sm">
+                <h4 className="text-xs uppercase tracking-wider font-semibold text-stone-850 mb-2">Fabric Details</h4>
+                <div className="grid grid-cols-2 gap-4 text-xs font-light text-stone-600">
+                  <div>
+                    <span className="block text-stone-400 mb-0.5">Price</span>
+                    <strong className="font-medium text-stone-850">₹150 / meter</strong>
+                  </div>
+                  <div>
+                    <span className="block text-stone-400 mb-0.5">Available Stock</span>
+                    <strong className="font-medium text-stone-850">20 mtr</strong>
+                  </div>
+                </div>
+              </div>
+            )}
 
             {/* Divider */}
             <hr className="border-stone-100 mb-6" />

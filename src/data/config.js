@@ -14,7 +14,8 @@ export const shopConfig = {
     { name: "Nighties", image: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=800&q=80", tag: "nighties", desc: "Soft breathable premium cottons" },
     { name: "Night Dresses", image: "https://images.unsplash.com/photo-1608060434411-0c3fa9049e7b?auto=format&fit=crop&w=800&q=80", tag: "night-dresses", desc: "Cozy nightsuits & elegant robes" },
     { name: "Tops", image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80", tag: "tops", desc: "Modern blouses & chic casual styles" },
-    { name: "Lounge Wear", image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80", tag: "lounge-wear", desc: "Cozy & stylish relaxation wear" }
+    { name: "Lounge Wear", image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80", tag: "lounge-wear", desc: "Cozy & stylish relaxation wear" },
+    { name: "Fabric Section", image: "/maroon-printed-fabric.jpg", tag: "fabric-section", desc: "Premium quality fabrics per meter" }
   ],
   aboutText: {
     history: "Founded with a passion for traditional fabrics and contemporary styles, Indraprastham Boutique has been serving fashion-forward women in the local community for over a decade. We curate a selection of elegant sarees, comfortable kurti sets, and high-quality loungewear.",
