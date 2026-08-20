@@ -90,7 +90,7 @@ export default function ProductDetails() {
 
   // WhatsApp prefilled link generator
   const getWhatsAppLink = () => {
-    const text = `Hi Indraprastham Boutique,
+    const text = `Hi Dhanaz Boutique,
 
 I'm interested in:
 

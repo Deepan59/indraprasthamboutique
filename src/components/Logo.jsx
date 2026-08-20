@@ -11,7 +11,7 @@ export default function Logo({ className = "", variant = "light" }) {
         <div className="w-full h-full rounded-full bg-stone-950 flex items-center justify-center overflow-hidden relative">
           <img 
             src={logoImg} 
-            alt="Indraprastham Boutique Logo" 
+            alt="Dhanaz Boutique Logo" 
             className="w-full h-full object-cover rounded-full"
           />
         </div>
@@ -22,7 +22,7 @@ export default function Logo({ className = "", variant = "light" }) {
         <span className={`font-serif text-lg sm:text-2xl font-bold tracking-widest leading-none ${
           isLight ? 'text-white' : 'text-stone-900'
         }`}>
-          INDRAPRASTHAM
+          DHANAZ
         </span>
         <div className="flex items-center gap-1 mt-0.5">
           <span className={`h-[1px] w-2 ${isLight ? 'bg-amber-400/60' : 'bg-amber-600/60'}`}></span>
