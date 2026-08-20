@@ -12,7 +12,7 @@ export default function About() {
             The Brand
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl text-stone-900 font-medium mb-3">
-            About Indraprastham Boutique
+            About Dhanaz Boutique
           </h1>
           <p className="text-stone-500 font-light text-sm max-w-md mx-auto">
             A heritage of quality materials, curated with passion for modern women who love elegant fashion.
@@ -24,7 +24,7 @@ export default function About() {
           <div className="lg:col-span-6 overflow-hidden rounded-sm bg-stone-100 aspect-[4/5]">
             <img
               src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80"
-              alt="Indraprastham Boutique interior showcase"
+              alt="Dhanaz Boutique interior showcase"
               className="w-full h-full object-cover"
               loading="lazy"
             />
