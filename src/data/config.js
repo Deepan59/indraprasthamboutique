@@ -1,11 +1,11 @@
 export const shopConfig = {
-  name: "Indraprastham Boutique",
+  name: "Dhanaz Boutique",
   tagline: "Exquisite Women's Fashion & Traditional Weaves",
   contact: {
-    phone: "+91 90251 98707", // Updated phone display
-    whatsappNumber: "919025198707", // Updated WhatsApp link format
-    email: "saravanaboutiqueofficials@gmail.com",
-    address: "23/71 Ramnagar 3rd Cross, Bypass Rd, near Vasanth & Co, Madurai, Tamil Nadu 625016",
+    phone: "+91 74186 66991",
+    whatsappNumber: "917418666991",
+    email: "dhanazboutique@gmail.com",
+    address: "2/5, RC Square Building, Villankurichi Rd, Peelamedu, Cheran Ma Nagar, Coimbatore, Tamil Nadu 641051",
     openingHours: "Monday - Saturday: 10:00 AM - 9:00 PM | Sunday: Closed",
   },
   categories: [
@@ -18,7 +18,7 @@ export const shopConfig = {
     { name: "Fabric Section", image: "/maroon-printed-fabric.jpg", tag: "fabric-section", desc: "Premium quality fabrics per meter" }
   ],
   aboutText: {
-    history: "Founded with a passion for traditional fabrics and contemporary styles, Indraprastham Boutique has been serving fashion-forward women in the local community for over a decade. We curate a selection of elegant sarees, comfortable kurti sets, and high-quality loungewear.",
+    history: "Founded with a passion for traditional fabrics and contemporary styles, Dhanaz Boutique has been serving fashion-forward women in the local community for over a decade. We curate a selection of elegant sarees, comfortable kurti sets, and high-quality loungewear.",
     mission: "Our mission is to celebrate individuality by providing premium quality, beautiful fabrics, and custom-feel fits that bring comfort and confidence to every woman.",
   }
 };
